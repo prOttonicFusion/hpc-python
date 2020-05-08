@@ -11,6 +11,6 @@ Cython implementation.
 
 ### Solution
 1. Run `make`
-2. Run `python3 setup.py build_ext --inplace`
-3. Run `python3 build_libevolve.py`
+2. Run `python3 setup.py build_ext --inplace` to build Cython setup
+3. Run `python3 build_libevolve.py` to link the C source code and Python program
 4. Run `python3 test_performance.py`
