@@ -16,3 +16,13 @@ after receiving print out the rank of process together with the first element
 of the received array. Investigate what happens when reordering the send and
 receive calls in one of the processes.
 
+### Solution
+
+The programs are run using
+```
+mpirun -np 2 python3 communicating-objects.py
+```
+and 
+```
+mpirun -np 2 python3 communicating-arrays.py
+```
